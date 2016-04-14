@@ -33,3 +33,5 @@ def organize_customer_data(customer_file_path):
         customers.append(new_customer)
 
     return customers
+
+customers = organize_customer_data("customers.txt")
